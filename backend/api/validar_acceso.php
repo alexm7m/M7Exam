@@ -30,7 +30,7 @@ require_once __DIR__ . '/../config/Errores.php';
 
 use config\Errores;
 
-$debug = true;
+$debug = false;
 Errores::inicializar($debug);
 
 // jsonResponse([
